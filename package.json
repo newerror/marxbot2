@@ -1,0 +1,19 @@
+{
+  "name": "marxbot2",
+  "version": "1.0.0",
+  "description": "LEFTDISC moderator bot",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeftDisc/marxbot2.git"
+  },
+  "author": "LEFTDISC Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeftDisc/marxbot2/issues"
+  },
+  "homepage": "https://github.com/LeftDisc/marxbot2#readme"
+}
