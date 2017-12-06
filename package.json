@@ -2,9 +2,9 @@
   "name": "marxbot2",
   "version": "1.0.0",
   "description": "LEFTDISC moderator bot",
-  "main": " ",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/LeftDisc/marxbot2/issues"
   },
-  "homepage": "https://github.com/LeftDisc/marxbot2#readme"
+  "homepage": "https://github.com/LeftDisc/marxbot2#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "discord-akairo": "^7.5.1",
+    "discord.js": "^11.2.1",
+    "mysql2": "^1.5.1"
+  }
 }
